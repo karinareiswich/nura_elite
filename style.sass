@@ -2,8 +2,8 @@ $color_1: #ffffff
 $color_2: #333333
 
 html
-   margin: 0 auto
    max-width: 1440px
+   margin: 0 auto
 
 body
    font-family: 'Fira Sans', sans-serif
@@ -30,6 +30,10 @@ h1
 .info
    display: flex
    justify-content: space-between
+   border-bottom: 1px solid #F9AA4B
+
+.info__logo
+   cursor: pointer
 
 .info__navigation
    display: flex
@@ -51,6 +55,9 @@ h1
    color: $color_1
    border: 1px solid #DBA069
 
+.info__item a:hover
+   opacity: 0.8
+
 .navigation__list
    display: flex
    gap: 50px
@@ -61,6 +68,11 @@ h1
    font-weight: 400
    font-size: 16px
    line-height: 19px
+   padding-bottom: 4px
+
+.navigation__item:hover
+   border-bottom: 1px solid #F9AA4B
+   opacity: 0.8
 
 .content
    display: flex
@@ -76,7 +88,14 @@ h1
    font-size: 18px
    line-height: 140%
 
+.content__link:hover
+   background-color: #F9AA4B
+
+.content__link:active
+   opacity: 0.8
+
 .text
+   margin: 60px 0 20px 0
    color: $color_1
    font-weight: 700
    font-size: 32px
@@ -110,3 +129,72 @@ h1
    font-weight: 400
    font-size: 16px
    line-height: 19px
+
+.project
+   background-image: url(image/project.png)
+   background-repeat: no-repeat
+   background-size: contain
+   margin-top: 20px
+
+.project__container
+   display: flex
+   gap: 86px
+   justify-content: space-between
+   padding: 0 15px
+   max-width: 1180px
+   padding-top: 115px
+   margin: 0 auto
+
+.name
+   margin: 0
+   padding-bottom: 40px
+   font-weight: 700
+   font-size: 48px
+   line-height: 58px
+
+.project__text
+   color: $color_2
+   margin: 0
+   padding-bottom: 50px
+   font-weight: 300
+   font-size: 18px
+   line-height: 110%
+
+.project__name
+   color: $color_2
+   margin: 0
+   padding-bottom: 30px
+   font-weight: 700
+   font-size: 20px
+   line-height: 24px
+
+.mm__group
+   width: 100%
+   height: auto
+   padding-bottom: 149px
+
+.home
+   background-color: #FFE7D1
+   padding-bottom: 70px
+
+.home__container
+   max-width: 1180px
+   margin: 0 auto
+   padding-top: 60px
+
+.home__art
+   display: flex
+   gap: 60px
+
+.home__text
+   color: $color_2
+   font-weight: 700
+   font-size: 32px
+   line-height: 140%
+   margin: 0
+   text-align: center
+
+.home__img
+   width: 100%
+   height: auto
+   padding-top: 20px
