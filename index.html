@@ -43,13 +43,14 @@
                             </li>
                         </ul>
                         <nav class="navigation">
+                            <button class="burger__menu" onclick="openModal()"></button>
                             <ul class="navigation__list">
-                                <li class="navigation__item">О проекте</li>
-                                <li class="navigation__item">Локация</li>
-                                <li class="navigation__item">Коттеджи</li>
-                                <li class="navigation__item">Почему мы?</li>
-                                <li class="navigation__item">Способы оплаты</li>
-                                <li class="navigation__item">Контакты</li>
+                                <li class="navigation__item"><a href="#project"> О проекте </a></li>
+                                <li class="navigation__item"><a href="#location"> Локация </a></li>
+                                <li class="navigation__item"> <a href="#home"> Коттеджи</a> </li>
+            
+                                <li class="navigation__item"><a href="#money"> Способы оплаты </a>  </li>
+                                <li class="navigation__item"> <a href="#contacts"> Контакты  </a></li>
                             </ul>
                         </nav>
                     </div>
@@ -93,7 +94,7 @@
                 </div>
             </div>
         </header>
-        <section class="project">
+        <section id="project" class="project">
             <div class="project__container">
             <div class="project__info">
                 <h2 class="name">О проекте</h2>
@@ -145,14 +146,14 @@
             </div>
         </div>
         </section>
-        <section class="home">
+        <section id="home" class="home">
             <div class="home__container">
             <div class="home__info">
                 <h2 class="name">Коттеджи</h2>
             </div>
             <div class="home__art">
                 <div class="home__art__one">
-                    <img class="home__img" src="image/home.png" alt="home_one" width="692" height="414">
+                    <img class="home__img" src="image/home.png" alt="home_one" width="92" height="414">
                 </div>
                 <div class="home__art__two">
                     <p class="home__text">179 м2</p>
@@ -161,7 +162,7 @@
             </div
             > </div>  
         </section>
-        <section class="location">
+        <section id="location" class="location">
             <div class="location__container">
             <div class="project__info">
                 <h2 class="name">Локация</h2>
@@ -169,56 +170,11 @@
                 <p class="project__text">Nura Elite - это прекрасное пространство для <br> уединения и активной семейной жизни в <br> гармонии с природой, без городского шума с <br> удобной транспортной развязкой.</p>
             </div>
             <div class="project__art">
-                <img class="mm__group" src="image/image2.png" alt="image2" width="623" height="442">
+                <img class="img__art" src="image/image__2.png" alt="image_2" width="581" height="442">
             </div>
         </div>
         </section>
-        <section class="download">
-            <div class="download__container">
-                <div class="download__info">
-                    <h2 class="download__title">Скачать презентацию</h2>
-                    <p class="download__text">Оставьте свои контакты и мы вам вышлем</p>
-                </div>
-                <div class="download__form">
-                    <form class="contact__form" action="https://echo.htmlacademy.ru/" method="post">
-                            <input name="name" type="text" class="form__name"  placeholder="Ваше имя" >
-                            <input name="tel" type="tel" class="contact__tel" placeholder="Ваш телефон">
-                            <button class="contact__button" type="submit"> Отправить </button>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <section class="nura">
-            <div class="project__container">
-            <div class="project__art">
-                <h2 class="name">Почему NURA ELITE?</h2>
-                <img class="mm__group" src="image/image3.png" alt="image3" width="494" height="434">
-            </div>
-            <div class="project__group">
-                <div class="group">
-                    <img class="group__icon" src="image/grid1.svg" alt="icon_1" width="56" height="56">
-                    <h4>Энергоэффектиность</h4>
-                    <p class="group__text">Дома сохраняют тепло зимой и прохладу летом</p>
-                </div>
-                <div class="group">
-                    <img src="image/icon_2.svg" alt="icon_2" width="56" height="56">
-                    <h4>Экологически чистый район</h4>
-                    <p class="group__text">Городок расположен рядом с лесополосой и к. Нура-Есиль</p>
-                </div>
-                <div class="group">
-                    <img src="image/icon2.svg" alt="icon2" width="56" height="56">
-                    <h4>Безопасность</h4>
-                    <p class="group__text">Закрытый городок с круглосуточным видеонаблюдением</p>
-                </div>
-                <div class="group">
-                    <img src="image/icon_4.svg" alt="icon_4"width="56" height="56" >
-                    <h4>Коммуникации</h4>
-                    <p class="group__text" >Отопительная система и горячая вода - это один общий газгольдер на весь городок, функционирующий за счет газа.</p>
-                </div>
-            </div>
-        </div>
-        </section>
-        <section class="download">
+        <section id="money" class="download">
             <div class="money__container">
                 <div class="download__info">
                     <h2 class="name">Способы оплаты</h2>
@@ -241,11 +197,11 @@
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section id="contacts" class="contacts">
             <div class="contacts__container">
                 <div class="contacts__info">
                     <div class="contacts__map">
-                        <img src="image/map.jpg" alt="map" width="578" height="428">
+                        <img class="img__map" src="image/map.jpg" alt="map" width="578" height="428">
                     </div>
                     <div class="contacts__flex">
                     <div class="contacts__text">
@@ -259,7 +215,7 @@
                         <p><a class="contacts__link" href="#">@nura.premier</a></p>
                         </div>
                         <div class="contacts__qar">
-                            <img src="image/qar.jpg" alt="qar" width="177" height="177">
+                            <img class="img__map" src="image/qar.jpg" alt="qar" width="177" height="177">
                         </div>
                     </div>
                 </div>
@@ -267,5 +223,27 @@
             </div>
         </section>
         <footer></footer>
+
+        <!-- Mobile menu -->
+
+        <div id="mobile" class="mobile">
+            <ul class="mobile__list">
+                <li class="mobile__item">
+                    <a href="#project">О проекте</a>
+                </li>
+                <li class="mobile__item">
+                    <a href="#location">Локация</a>
+                </li>
+                <li class="mobile__item"><a href="#home">Коттеджи</a></li>
+                <li class="mobile__item">
+                    <a href="#money">Способы оптаты</a>
+                </li>
+                <li class="mobile__item">
+                    <a href="#contacts">Контакты</a>
+                </li>
+            </ul>
+            <button class="burger__close" onclick="closeModal()"></button>
+        </div>
+        <script src="index.js" defer></script>
     </body>
 </html>
