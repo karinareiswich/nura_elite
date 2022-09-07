@@ -168,7 +168,7 @@ h1 {
   display: flex;
   gap: 86px;
   justify-content: space-between;
-  padding: 0 15px;
+  padding: 0 30px;
   max-width: 1180px;
   padding-top: 70px;
   margin: 0 auto;
@@ -214,7 +214,7 @@ h1 {
 .home__container {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 60px 15px;
+  padding: 60px 30px;
 }
 
 .home__art {
@@ -248,7 +248,7 @@ h1 {
   display: flex;
   gap: 86px;
   justify-content: space-between;
-  padding: 115px 15px;
+  padding: 115px 30px;
   max-width: 1180px;
   margin: 0 auto;
 }
@@ -292,7 +292,7 @@ h1 {
 }
 
 .contacts__container {
-  padding: 70px 15px 70px 15px;
+  padding: 70px 30px 70px 30px;
   max-width: 1180px;
   margin: 0 auto;
 }
@@ -399,7 +399,7 @@ h1 {
   }
   .location__container {
     gap: 27px;
-    padding: 82px 15px 21px 15px;
+    padding: 82px 30px 21px 30px;
   }
   .money__container {
     padding: 46px 15px 46px 15px;
@@ -434,12 +434,12 @@ h1 {
 }
 @media (max-width: 565px) {
   .content {
-    text-align: center;
+    text-align: left;
   }
   .project__container {
     flex-direction: column;
     gap: 10px;
-    text-align: center;
+    text-align: left;
   }
   .mm__group {
     padding-bottom: 39px;
@@ -449,7 +449,7 @@ h1 {
     gap: 5px;
   }
   .project__info {
-    text-align: center;
+    text-align: left;
   }
   .project__text {
     padding-bottom: 30px;
