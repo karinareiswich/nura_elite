@@ -466,7 +466,7 @@ h1 {
   }
   .contacts__info {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
   .contacts__box {
     gap: 85px;
